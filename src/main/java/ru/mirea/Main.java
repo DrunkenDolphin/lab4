@@ -26,6 +26,7 @@ public class Main {
         addNeuronsToLayer(hiddenLayerTwo);
 
         Layer outputLayer = new Layer();
+        
         outputLayer.addNeuron(new Neuron());
 
         NeuralNetwork ann = new NeuralNetwork();
